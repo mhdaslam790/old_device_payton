@@ -68,6 +68,7 @@
 	<usecase name="USECASE_AUDIO_PLAYBACK_FM" type="out" id="5"/>
 	<usecase name="USECASE_AUDIO_PLAYBACK_FM" type="in" id="34"/>
 	<usecase name="USECASE_INCALL_MUSIC_UPLINK" type="out" id="27" />
+	<usecase name="USECASE_INCALL_MUSIC_UPLINK2" type="out" id="27" />
 </pcm_ids>
 
 <backend_names>
