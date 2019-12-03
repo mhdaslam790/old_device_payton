@@ -35,3 +35,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=400
+
+# NavBar
+PRODUCT_PROPERTY_OVERRIDES += \
+    qemu.hw.mainkeys=0
