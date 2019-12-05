@@ -311,7 +311,7 @@
 	<!-- Incall Recording End -->
 
 	<!-- Incall Music -->
-	<ctl name="Incall_Music Audio Mixer MultiMedia2" value="0" />
+	<ctl name="Incall_Music Audio Mixer MultiMedia9" value="0" />
 	<ctl name="Incall_Music_2 Audio Mixer MultiMedia9" value="0" />
 	<!-- Incall Music End -->
 
@@ -712,32 +712,41 @@
         <path name="incall-rec-uplink-and-downlink" />
     </path>
 
-	<path name="incall_music_uplink">
-		<ctl name="Incall_Music Audio Mixer MultiMedia2" value="1" />
+	<path name="incall-music-uplink">
+		<ctl name="Incall_Music Audio Mixer MultiMedia9" value="1" />
+		<ctl name="Incall_Music_2 Audio Mixer MultiMedia9" value="1" />
 	</path>
 
-	<path name="incall_music_uplink bt-sco">
-		<path name="incall_music_uplink" />
+	<path name="incall-music-uplink bt-sco">
+		<path name="incall-music-uplink" />
 	</path>
 
-	<path name="incall_music_uplink bt-sco-wb">
-		<path name="incall_music_uplink" />
+	<path name="incall-music-uplink bt-sco-wb">
+		<path name="incall-music-uplink" />
 	</path>
 
-    <path name="incall_music_uplink afe-proxy">
-        <path name="incall_music_uplink" />
-    </path>
+	<path name="incall-music-uplink afe-proxy">
+        	<path name="incall-music-uplink" />
+	</path>
+
+	<path name="incall-music-uplink headphones">
+		<path name="incall-music-uplink" />
+	</path>
+
+	<path name="incall-music-uplink speaker-and-headphones">
+		<path name="incall-music-uplink" />
+	</path>
 
 	<path name="incall_music_uplink2">
 		<ctl name="Incall_Music_2 Audio Mixer MultiMedia9" value="1" />
 	</path>
 
-	<path name="incall_music_uplink2 bt-sco">
-		<path name="incall_music_uplink2" />
+	<path name="incall-music-uplink speaker-and-bt-sco">
+		<path name="incall-music-uplink" />
 	</path>
 
-	<path name="incall_music_uplink2 bt-sco-wb">
-		<path name="incall_music_uplink2" />
+	<path name="incall-music-uplink speaker-and-bt-sco-wb">
+		<path name="incall-music-uplink" />
 	</path>
 
     <path name="incall_music_uplink2 afe-proxy">
@@ -820,6 +829,7 @@
 
 	<path name="handset-mic">
 		<path name="mic1" />
+		<ctl name="IN1L Volume" value="12" />
 	</path>
 
 	<path name="headphones">
@@ -934,7 +944,7 @@
 	</path>
 
 	<path name="camcorder-mic">
-		<path name="speaker-mic" />
+		<path name="handset-mic" />
 	</path>
 
 	<path name="bt-sco-headset">
@@ -977,6 +987,8 @@
 		<ctl name="SLIM_0_TX Channels" value="Two" />
 		<ctl name="SLIMTX1 Input 1" value="ISRC2DEC1" />
 		<ctl name="SLIMTX2 Input 1" value="ISRC2DEC4" />
+		<ctl name="IN1L Volume" value="12" />
+		<ctl name="IN2L Volume" value="12" />
 	</path>
 
 	<path name="dmic-endfire">
@@ -992,11 +1004,11 @@
 	</path>
 
 	<path name="voice-rec-dmic-ef">
-		<path name="voice-dmic-ef" />
+		<path name="dmic-endfire" />
 	</path>
 
 	<path name="voice-rec-dmic-ef-fluence">
-		<path name="voice-dmic-ef" />
+		<path name="dmic-endfire" />
 	</path>
 
 	<path name="camcorder-mic-bf">
