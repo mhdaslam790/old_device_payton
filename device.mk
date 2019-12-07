@@ -60,7 +60,7 @@ PRODUCT_PACKAGES += \
     init.qti.fm.sh \
     qcom.fmradio
 
-PRODUCT_BOOT_JARS += qcom.fmradio
+#PRODUCT_BOOT_JARS += qcom.fmradio
 
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \
