@@ -70,7 +70,7 @@ endif
 PRODUCT_DEVICE := payton
 PRODUCT_NAME := superior_payton
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := moto x4
+PRODUCT_MODEL := Moto x4
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := payton
 
