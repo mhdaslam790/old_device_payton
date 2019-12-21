@@ -77,4 +77,4 @@ PRODUCT_RELEASE_NAME := payton
 PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=payton
 
-BUILD_FINGERPRINT := motorola/payton/payton:8.0.0/OPWS27.57-25-6-10/12:user/release-keys
+BUILD_FINGERPRINT := motorola/payton/payton:9/PPW29.69-40-4/4ca2a:user/release-keys
