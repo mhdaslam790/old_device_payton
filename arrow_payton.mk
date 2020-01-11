@@ -68,7 +68,7 @@ endif
 
 # Device identifiers
 PRODUCT_DEVICE := payton
-PRODUCT_NAME := superior_payton
+PRODUCT_NAME := arrow_payton
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Moto x4
 PRODUCT_MANUFACTURER := Motorola
