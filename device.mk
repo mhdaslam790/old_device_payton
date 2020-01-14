@@ -69,7 +69,8 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.payton.rc
+    init.payton.rc \
+    init.recovery.qcom.rc
 
 # Keymaster HAL
 PRODUCT_PACKAGES += \
