@@ -691,9 +691,13 @@
 		<path name="incall-rec-uplink" />
 	</path>
 
-    <path name="incall-rec-uplink afe-proxy">
-        <path name="incall-rec-uplink" />
-    </path>
+	<path name="incall-rec-uplink usb-headset-mic">
+		<path name="incall-rec-uplink" />
+	</path>
+
+	<path name="incall-rec-uplink afe-proxy">
+		<path name="incall-rec-uplink" />
+	</path>
 
 	<path name="incall-rec-downlink">
 		<ctl name="MultiMedia1 Mixer VOC_REC_DL" value="1" />
@@ -707,9 +711,13 @@
 		<path name="incall-rec-downlink" />
 	</path>
 
-    <path name="incall-rec-downlink afe-proxy">
-        <path name="incall-rec-downlink" />
-    </path>
+	<path name="incall-rec-downlink usb-headset-mic">
+		<path name="incall-rec-downlink" />
+	</path>
+
+	<path name="incall-rec-downlink afe-proxy">
+		<path name="incall-rec-downlink" />
+	</path>
 
 	<path name="incall-rec-uplink-and-downlink">
 		<path name="incall-rec-uplink" />
@@ -724,9 +732,13 @@
 		<path name="incall-rec-uplink-and-downlink" />
 	</path>
 
-    <path name="incall-rec-uplink-and-downlink afe-proxy">
-        <path name="incall-rec-uplink-and-downlink" />
-    </path>
+	<path name="incall-rec-uplink-and-downlink usb-headset-mic">
+		<path name="incall-rec-uplink-and-downlink" />
+	</path>
+
+	<path name="incall-rec-uplink-and-downlink afe-proxy">
+		<path name="incall-rec-uplink-and-downlink" />
+	</path>
 
 	<path name="incall-music-uplink">
 		<ctl name="Incall_Music Audio Mixer MultiMedia9" value="1" />
@@ -742,7 +754,19 @@
 	</path>
 
 	<path name="incall-music-uplink afe-proxy">
-        	<path name="incall-music-uplink" />
+		<path name="incall-music-uplink" />
+	</path>
+
+	<path name="incall-music-uplink usb-headphones">
+		<path name="incall-music-uplink" />
+	</path>
+
+	<path name="incall-music-uplink usb-headset">
+		<path name="incall-music-uplink" />
+	</path>
+
+	<path name="incall-music-uplink speaker-and-usb-headphones">
+		<path name="incall-music-uplink" />
 	</path>
 
 	<path name="incall-music-uplink headphones">
@@ -753,10 +777,6 @@
 		<path name="incall-music-uplink" />
 	</path>
 
-	<path name="incall_music_uplink2">
-		<ctl name="Incall_Music_2 Audio Mixer MultiMedia9" value="1" />
-	</path>
-
 	<path name="incall-music-uplink speaker-and-bt-sco">
 		<path name="incall-music-uplink" />
 	</path>
@@ -764,10 +784,6 @@
 	<path name="incall-music-uplink speaker-and-bt-sco-wb">
 		<path name="incall-music-uplink" />
 	</path>
-
-    <path name="incall_music_uplink2 afe-proxy">
-        <path name="incall_music_uplink2" />
-    </path>
 
 	<path name="hfp-sco">
 		<ctl name="HFP_PRI_AUX_UL_HL Switch" value="1" />
