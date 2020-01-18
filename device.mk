@@ -124,3 +124,16 @@ $(call inherit-product, build/target/product/verity.mk)
 
 # Inherit from motorola sdm660-common
 $(call inherit-product, device/motorola/sdm660-common/common.mk)
+
+#gapps
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
+
+#gapps_config
+
+GAPPS_VARIANT := nano
+
+GAPPS_FORCE_PACKAGE_OVERRIDES := true
+
+GAPPS_EXCLUDED_PACKAGES := SetupWizard
+
+GAPPS_PRODUCT_PACKAGES += GoogleDialer
